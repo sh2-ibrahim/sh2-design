@@ -1,0 +1,63 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  h1, h2, h3, .navbar-brand, .btn {
+    font-family: 'Poppins', sans-serif;
+  }
+    
+.profile-img {
+    width: 250px;
+    height: 250px;
+  }
+
+.btn-outline-light {
+    color: #fff;
+    border-color: #fff;
+    background-color: transparent;
+  }
+  
+  .btn-outline-light.active {
+    background-color: #f8f9fa;  
+    color: #000;  
+    border-color: #f8f9fa;  
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  .btn.active {
+    background-color: #f8f9fa;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .img-fluid {
+    border: 1px solid #fff;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+
+  .social-links a {
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links i {
+    margin: 0 10px;
+  }
+  
+  @media (max-width: 1792px) {
+    #category1 .col-sm-6,
+    #category2 .col-sm-6,
+    #category3 .col-sm-6 {
+      flex: 0 0 50%; /* 2 columns per row */
+      max-width: 50%;
+    }
+  }
+  

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SH2 Creations</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <a class="navbar-brand" href="#">SH2 CREATIONS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact Me</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home -->
+  <section id="home" class="py-5 text-center bg-dark text-white">
+    <div class="container">
+      <img src="img/sh2-logo.png" alt="Profile" class="profile-img rounded-circle mb-3">
+      <h2>Hi, I'm IBRAHIM SHITTU</h2>
+      <p>I'm a graphic designer with a strong background in design and computer software technology.
+        I offer unique and clean work across all types of visual design. Kindly check out some of my projects below!
+        </p>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="py-5 bg-dark text-white">
+    <div class="container text-center">
+      <h2>My Work</h2>
+
+      <div class="btn-group mt-4" role="group">
+        <button id="btn-category1" class="btn btn-outline-light active" onclick="showGrid('category1', 'btn-category1')">Logo & Branding</button>
+        <button id="btn-category2" class="btn btn-outline-light" onclick="showGrid('category2', 'btn-category2')">Post Design</button>
+        <button id="btn-category3" class="btn btn-outline-light" onclick="showGrid('category3', 'btn-category3')">Digital Arts</button>
+      </div>
+
+      <!-- Logo & Branding -->
+      <div id="category1" class="row mt-5">
+        <div class="col-sm-6 col-md-4 mb-4"><img src="img/Forefront.png" class="img-fluid border"></div>
+        <div class="col-sm-6 col-md-4 mb-4"><img src="img/Realway.png" class="img-fluid border"></div>
+        <div class="col-sm-6 col-md-4 mb-4"><img src="img/irexx.png" class="img-fluid border"></div>
+        <div class="col-sm-6 col-md-4 mb-4"><img src="img/DATACIVEX.png" class="img-fluid border"></div>
+        <div class="col-sm-6 col-md-4 mb-4"><img src="img/Aster1.png" class="img-fluid border"></div>
+        <div class="col-sm-6 col-md-4 mb-4"><img src="img/Aster2.png" class="img-fluid border"></div>
+      </div>
+
+      <!-- Post Design -->
+      <div id="category2" class="row mt-5 d-none">
+        <div class="col-sm-6 col-md-4 mb-4"><img src="img/Ramadan.png" class="img-fluid border"></div>
+        <div class="col-sm-6 col-md-4 mb-4"><img src="img/itikaf.png" class="img-fluid border"></div>
+        <div class="col-sm-6 col-md-4 mb-4"><img src="img/brightbuzz.png" class="img-fluid border"></div>
+        <div class="col-sm-6 col-md-4 mb-4"><img src="img/habib.png" class="img-fluid border"></div>
+        <div class="col-sm-6 col-md-4 mb-4"><img src="img/africana1.PNG" class="img-fluid border"></div>
+        <div class="col-sm-6 col-md-4 mb-4"><img src="img/africana2.PNG" class="img-fluid border"></div>
+      </div>
+
+      <!-- Digital Arts -->
+      <div id="category3" class="row mt-5 d-none">
+        <div class="col-sm-6 col-md-4 mb-4"><img src="img/archer.JPG" class="img-fluid border"></div>
+        <div class="col-sm-6 col-md-4 mb-4"><img src="img/beach.png" class="img-fluid border"></div>
+        <div class="col-sm-6 col-md-4 mb-4"><img src="img/otherworld.JPG" class="img-fluid border"></div>
+        <div class="col-sm-6 col-md-4 mb-4"><img src="img/Happy.JPG" class="img-fluid border"></div>
+        <div class="col-sm-6 col-md-4 mb-4"><img src="img/Sweepers.JPG" class="img-fluid border"></div>
+        <div class="col-sm-6 col-md-4 mb-4"><img src="img/City.png" class="img-fluid border"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-5 text-center bg-dark text-white">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <div class="social-links">
+        <a href="https://wa.me/2349029364490" target="whatsapp" class="text-white mx-3">
+          <i class="fab fa-whatsapp fa-3x"></i>
+        </a>
+        <a href="https://www.behance.net/ibrahimshittu" target="_blank" class="text-white mx-3">
+          <i class="fab fa-behance fa-3x"></i>
+        </a>
+        <a href="mailto:sh2creations01@gmail.com" target="_blank" class="text-white mx-3">
+          <i class="fas fa-envelope fa-3x"></i>
+        </a>
+      </div>
+    </div>
+  </section>  
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
